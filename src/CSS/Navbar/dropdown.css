@@ -1,0 +1,28 @@
+.list {
+  position: relative;
+  top: -8px;
+  right: 5px;
+  width: 150px;
+  height: 70px;
+  /* margin-right: 20px; */
+  margin-top: 20px;
+ 
+}
+
+.list ul {
+  position: relative;
+  right: 30px;
+}
+.list li {
+  list-style: none;
+  width: 100%;
+}
+
+.account {
+  position: fixed;
+  /* right: 20px; */
+  cursor: pointer;
+  background-color: var(--purple);
+  color: white;
+  list-style: none;
+}
