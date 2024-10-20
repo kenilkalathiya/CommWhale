@@ -1,5 +1,6 @@
 import React from "react";
 import "../CSS/Navbar/navbar.css";
+import { NavLink } from "react-router-dom";
 import Dropdown from "./Dropdown";
 import { FaCartShopping } from "react-icons/fa6";
 
@@ -7,7 +8,9 @@ export default function Navbar() {
   return (
     <>
       <div className="nav">
+      <NavLink to='/'>
         <div className="nav_logo"></div>
+      </NavLink>
         <div className="left_nav">
           <ul className="nav_list">
             <li>Events</li>

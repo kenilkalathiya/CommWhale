@@ -6,7 +6,7 @@ import {
   } from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import Home from "./Home/Home";
-
+import Event from "./Event/Event";
 
 
 
@@ -17,7 +17,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/profile" element={<Profile  />} /> */}
+          <Route path="/event" element={<Event />} />
         </Routes>
       
       </BrowserRouter>

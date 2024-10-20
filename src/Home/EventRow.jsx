@@ -22,7 +22,7 @@ export default function EventRow({ title, data }) {
 
   return (
     <div className="row">
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <div
         className="overflow_btn scroll_left"
         onClick={() => {
